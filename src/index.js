@@ -26,7 +26,7 @@ import formValidate from './modules/formValidate';
 import maskPhone from './modules/maskPhone';
 
 // Таймер
-countTimer('17 december 2020');
+countTimer(`17 december ${(new Date()).getFullYear()}`);
 // Меню
 toggleMenu();
 // Плавная прокрутка
